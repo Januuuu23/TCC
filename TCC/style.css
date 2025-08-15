@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #491c015b;
+  }
+
+  header {
+    background-color: #000000;
+    color:  #c46e34f3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header #a_titulo{
+    color: #c46e34f3;
+    font-size: 30px;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  .destaque img{
+ width: 100%;
+  }
+
+  .camada-escura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* quanto maior o valor, mais escuro */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 90px;
+    text-align: center;
+  }
+
+  .destaque {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    background-image: url('img/img-chat.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color: white;
+   
+    position: relative; 
+    width: 100%; 
+    overflow: hidden;
+  }
+.destaque #ver_eventos{
+    background-color: rgba(194, 193, 193, 0.432);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .destaque button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c46d345b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .secao {
+    padding: 40px 20px;
+  }
+
+  .secao h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    height: 40%;
+  }
+
+  .cartao {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .cartao img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .saiba_mais{
+    background-color: rgb(22, 106, 231);
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .informacoes {
+    padding: 15px;
+  }
+
+  .informacoes button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer div {
+    margin: 10px 0;
+  }
+
+  footer a {
+    display: block;
+    color: #c46e34da;
+    margin-top: 5px;
+    text-decoration: none;
+  }
